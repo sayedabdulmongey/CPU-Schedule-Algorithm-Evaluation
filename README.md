@@ -205,3 +205,22 @@ Consider the following processes with their arrival times and burst times:
 
 Assuming a time quantum of 2, the RR order of execution would be P1 -> P2 -> P3 -> P4 -> P1 -> P2 -> P3 -> P1 -> ...
 ---
+---
+## Process Structure Explanation
+
+The `process` structure is designed to represent information about a computing process. Let's break down its components:
+
+- **`name`**: This field holds the name of the process, providing a unique identifier.
+
+- **`arrival_time`**: A vector that can store multiple arrival times for the process. This is useful in scenarios where a process may have multiple phases of arrival.
+
+- **`total_burst_time`**: Represents the total amount of time the process requires for its execution. This value is constant and does not change during the process's execution.
+
+- **`remaining_burst_time`**: Keeps track of the remaining time needed for the process to complete its execution. This value is dynamic and gets updated as the process runs.
+
+- **`dispatch_time`**: Another vector that records dispatch (start) times. It helps in keeping track of when the process begins its execution.
+
+Additionally, there is a commented-out `operator<` function. This function, when uncommented, provides a way to customize the comparison between two processes. In the provided example, it compares processes based on their remaining burst time in descending order. However, the comparison logic can be modified based on specific requirements, such as prioritizing processes by arrival time or other criteria.
+
+This `process` structure is designed to be flexible and adaptable to various scheduling scenarios, allowing for a comprehensive representation of process-related information.
+
