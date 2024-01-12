@@ -1,9 +1,8 @@
 # CPU Schedule Algorithm Evalution
 
-The Algorithms in this repo is : 
-
- 1.First Come First Serve (FCFS)
- 2.Shortest Job First (SJF)
- 3.Shortest Remaining Job First (SRJF)
- 4.Round Robin
+The Algorithms in this repo is : <br />
+ 1.First Come First Serve (FCFS) <br />
+ 2.Shortest Job First (SJF) <br />
+ 3.Shortest Remaining Job First (SRJF) <br />
+ 4.Round Robin <br />
 
