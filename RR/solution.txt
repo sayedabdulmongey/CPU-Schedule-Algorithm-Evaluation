@@ -1,0 +1,15 @@
+				 RR Algorithm
+				 GanntChart
+				|--|--|--|--|--|--|--|--|--|
+				|p1|p2|p3|p1|p4|p5|p2|p1|p5|
+				|--|--|--|--|--|--|--|--|--|
+
+
+				 Result Report
+				name	wt	trt	rt
+				p1		8	13	0
+				p2		8	11	1
+				p3		2	3	2
+				p4		4	6	4
+				p5		7	10	5
+				AVG		5.8	8.6	2.4
