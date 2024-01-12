@@ -53,3 +53,7 @@ Consider the following processes with their arrival times and burst times:
 | P3      | 2            | 3          |
 
 The FCFS order of execution would be P1 -> P2 -> P3.
+
+...
+
+---
