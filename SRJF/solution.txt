@@ -1,0 +1,15 @@
+				 SRJF Algorithm
+				 GanntChart
+				|--|--|--|--|--|--|--|
+				|p1|p2|p3|p2|p4|p5|p1|
+				|--|--|--|--|--|--|--|
+
+
+				 Result Report
+				name	wt	trt	rt
+				p1		9	14	0
+				p2		1	4	0
+				p3		0	1	0
+				p4		2	4	2
+				p5		3	6	3
+				AVG		3	5.8	1
