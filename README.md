@@ -6,13 +6,13 @@ The Algorithms in this repo is : <br />
  3. Shortest Remaining Job First (SRJF) <br />
  4. Round Robin <br />
 
-# FCFS Scheduling Algorithm
+## FCFS Scheduling Algorithm
 
-## Overview
+### Overview
 
 The First-Come-First-Serve (FCFS) scheduling algorithm is one of the simplest and most straightforward scheduling algorithms used in operating systems. In FCFS, the process that arrives first is the one that gets executed first. It follows a non-preemptive scheduling approach, meaning that once a process starts its execution, it continues until it completes without any interruptions.
 
-## How FCFS Works
+### How FCFS Works
 
 1. **Arrival of Processes:**
    - As processes arrive, they are added to the ready queue.
@@ -28,21 +28,21 @@ The First-Come-First-Serve (FCFS) scheduling algorithm is one of the simplest an
 4. **No Preemption:**
    - FCFS is non-preemptive, meaning a process cannot be interrupted or stopped once it starts executing.
 
-## Pros and Cons
+### Pros and Cons
 
-### Pros:
+#### Pros:
 - Simplicity: FCFS is easy to understand and implement.
 - No starvation: Every process gets a fair chance to execute.
 
-### Cons:
+#### Cons:
 - **Convoy Effect:** Short processes might get stuck waiting behind a long process, causing a convoy effect.
 - **Average Waiting Time:** FCFS can lead to a high average waiting time, especially if there are significant variations in process burst times.
 
-## Usage
+### Usage
 
 FCFS is suitable for scenarios where simplicity is crucial, and there is no need for complex scheduling strategies. However, it may not be ideal for systems where minimizing average waiting time is a critical factor.
 
-## Example
+### Example
 
 Consider the following processes with their arrival times and burst times:
 
