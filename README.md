@@ -203,5 +203,5 @@ Consider the following processes with their arrival times and burst times:
 | P3      | 3            | 8          |
 | P4      | 5            | 2          |
 
-Assuming a time quantum of 2, the RR order of execution would be P1 -> P2 -> P3 -> P4 -> P1 -> P3 -> P2 -> P4 -> ...
+Assuming a time quantum of 2, the RR order of execution would be P1 -> P2 -> P3 -> P4 -> P1 -> P2 -> P3 -> P1 -> ...
 ---
