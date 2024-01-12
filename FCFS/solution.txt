@@ -1,0 +1,15 @@
+				 FCFS Algorithm
+				 GanntChart
+				|--|--|--|--|--|
+				|p1|p2|p3|p4|p5|
+				|--|--|--|--|--|
+
+
+				 Result Report
+				name	wt	trt	rt
+				p1		0	5	0
+				p2		4	7	4
+				p3		6	7	6
+				p4		6	8	6
+				p5		7	10	7
+				AVG		4.6	7.4	4.6
