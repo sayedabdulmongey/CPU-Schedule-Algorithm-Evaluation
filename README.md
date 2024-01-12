@@ -74,7 +74,7 @@ The Shortest Job First (SJF) scheduling algorithm is a non-preemptive algorithm 
 3. **Completion and Arrival:**
    - Once a process finishes its execution, the next process with the shortest burst time becomes the new running process.
 
-4. **No Preemption:**
+4. **Preemption:**
    - SJF is non-preemptive, meaning a process cannot be interrupted or stopped once it starts executing.
 
 ### Pros and Cons
@@ -101,7 +101,8 @@ Consider the following processes with their arrival times and burst times:
 | P3      | 4            | 3          |
 | P4      | 6            | 5          |
 
-The SJF order of execution would be P3 -> P1 -> P4 -> P2.
+The SJF order of execution would be P1 -> P3 -> P4 -> P2.
+
 ---
 
 # Shortest Remaining Job First (SRJF) Scheduling Algorithm
